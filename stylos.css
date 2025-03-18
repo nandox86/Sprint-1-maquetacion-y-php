@@ -1,0 +1,97 @@
+/* gral*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; 
+    color: #fff; 
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #000; 
+}
+
+/*header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9534f; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo, .nav, .social {
+    flex: 1;
+    text-align: center;
+    color: #fff; 
+}
+
+/* bnner ppal */
+.banner {
+    background-color: #f0ad4e; 
+    color: #000; 
+    text-align: center;
+    padding: 20px; /
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* main content*/
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+/* articles */
+.articles {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.article {
+    background-color: #337ab7; 
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff; 
+}
+
+/*ads */
+.ads {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.publicidad {
+    background-color: #d9534f; 
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff; 
+}
+
+/* navegación secundaria*/
+.secondary-nav {
+    background-color: #5bc0de; /* Azul claro */
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    color: #fff; /* Texto blanco */
+}
+
+/*footer*/
+.footer {
+    background-color: #f7ecb5; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000; 
